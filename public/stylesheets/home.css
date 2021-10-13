@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tbl-header {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+th {
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+body {
+    background: -webkit-linear-gradient(left, #eff7f4, #f1f1f7);
+    background: linear-gradient(to right, #e5eeec, #ebe2e2c0);
+    font-family: 'Roboto', sans-serif;
+}
