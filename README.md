@@ -2,15 +2,14 @@
 
 Project For Avishkar 2021
 
-# Installation
+## Installation
 
-1.Clone this GitHub repository
-
-github.com/JainendraDwivedi/Calorie-Heist
+1.Clone this GitHub repository - [Calorie Heist](https://github.com/JainendraDwivedi/Calorie-Heist)
 
 2.Install all dependent npm packages
 
-npm install --save
+> npm install --save
+
 
 3.Create a MongoDB database
 
