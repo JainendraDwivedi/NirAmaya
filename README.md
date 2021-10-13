@@ -4,6 +4,7 @@ Project For Avishkar 2021
 
 ## Table Of Contents
 
+- [Installation](## Installation)
 ## Installation
 
 1. Clone this GitHub repository - [Calorie Heist](https://github.com/JainendraDwivedi/Calorie-Heist)
