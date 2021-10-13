@@ -2,6 +2,8 @@
 
 Project For Avishkar 2021
 
+## Table Of Contents
+
 ## Installation
 
 1. Clone this GitHub repository - [Calorie Heist](https://github.com/JainendraDwivedi/Calorie-Heist)
@@ -18,6 +20,11 @@ Project For Avishkar 2021
 5. If running on a server or hosting platform add the DATABASE with connection string to the environment variables
 
 6. If needed seed the MongoDB database by running npm run seed
+
+
+## Usage
+
+## Features
 
 ## Contributors
 
