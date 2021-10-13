@@ -4,7 +4,7 @@ Project For Avishkar 2021
 
 ## Table Of Contents
 
-- [Installation]([Installation](##Installation "Goto Installation")
+- [Installation]([Installation](##Installation)
     
     
 ## Installation
