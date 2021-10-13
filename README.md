@@ -6,7 +6,7 @@ Project For Avishkar 2021
 
 1.Clone this GitHub repository
 
-git@github.com:JainendraDwivedi/Calorie-Heist
+github.com/JainendraDwivedi/Calorie-Heist
 
 2.Install all dependent npm packages
 
