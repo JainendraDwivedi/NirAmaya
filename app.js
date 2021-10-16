@@ -6,10 +6,19 @@ const app = express();
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
+
+//bodyparser
+app.use(express.urlencoded({extended: true}))
+
+//ejs environment
+let ejs = require('ejs');
+app.set('view engine', 'ejs');
 app.use(express.static("public"));
 
 //My routes (imports)
 const htmlRoutes = require("./routes/html-routes");
+const authRoutes = require("./routes/auth");
+
 
 //DB Connection
 mongoose
@@ -29,7 +38,7 @@ app.use(cors());
 
 //My Routes
 app.use("/api", htmlRoutes);
-
+app.use("/api", authRoutes)
 //PORT
 const port = process.env.PORT || 8000;
 
