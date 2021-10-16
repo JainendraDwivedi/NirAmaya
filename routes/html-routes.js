@@ -18,3 +18,4 @@ router.get("/signup", signupHTML);
 router.get("/bmi", bmiHTML);
 
 module.exports = router;
+
