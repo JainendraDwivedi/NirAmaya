@@ -1,17 +1,16 @@
 const path = require("path");
 
 
+exports.loginHTML = function (req, res) {
+  res.render("login");
+};
+exports.homeHTML = function (req, res) {
+  res.render("home");
+};
+exports.signupHTML = function (req, res) {
+  res.render("signup");
+};
 
-exports.loginHTML = (req, res) => {
-    res.sendFile(path.join(__dirname,  "../public/views/login.html"));
-  };
-exports.homeHTML = (req, res) => {
-    res.sendFile(path.join(__dirname, "../public/views/home.html"));
-  };
-exports.signupHTML = (req, res) => {
-    res.sendFile(path.join(__dirname, "../public/views/signup.html"));
-  };
-  
-exports.bmiHTML = (req, res) => {
-    res.sendFile(path.join(__dirname, "../public/views/bmi.html"));
-  };
+exports.bmiHTML = function (req, res) {
+  res.render("bmi");
+};
