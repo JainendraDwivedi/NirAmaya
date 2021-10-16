@@ -3,6 +3,7 @@ const { check, validationResult } = require("express-validator");
 var jwt = require("jsonwebtoken");
 var expressJwt = require("express-jwt");
 
+
 exports.signup = (req, res) => {
   const errors = validationResult(req);
 
@@ -19,11 +20,12 @@ exports.signup = (req, res) => {
         err: "NOT able to save user in DB"
       });
     }
-    res.json({
-      name: user.name,
-      email: user.email,
-      id: user._id
-    });
+    res.redirect('/api/');
+    // res.json({
+    //   name: user.name,
+    //   email: user.email,
+    //   id: user._id
+    // });
   });
 };
 
@@ -56,8 +58,10 @@ exports.signin = (req, res) => {
     res.cookie("token", token, { expire: new Date() + 9999 });
 
     //send response to front end
-    const { _id, name, email } = user;
-    return res.json({ token, user: { _id, name, email } });
+
+    res.redirect("/api/home")
+    // const { _id, name, email } = user;
+    // return res.json({ token, user: { _id, name, email } });
   });
 };
 
