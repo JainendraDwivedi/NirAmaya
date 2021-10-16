@@ -18,6 +18,7 @@ app.use(express.static("public"));
 //My routes (imports)
 const htmlRoutes = require("./routes/html-routes");
 const authRoutes = require("./routes/auth");
+const bmiRoutes = require("./routes/bmi");
 
 
 //DB Connection
@@ -38,7 +39,8 @@ app.use(cors());
 
 //My Routes
 app.use("/api", htmlRoutes);
-app.use("/api", authRoutes)
+app.use("/api", authRoutes);
+app.use("/api", bmiRoutes);
 //PORT
 const port = process.env.PORT || 8000;
 
