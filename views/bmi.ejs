@@ -11,20 +11,20 @@
   <body>
     <div class="form-box">
       <h2>BMI</h2>
-      <form>
+      <form action="/api/bmi" method="post">
         <div class="user-box">
-          <input type="number" name="" required="" />
-          <label>weight (KG) </label>
+          <input type="number" name="Weight" required="" />
+          <label>Weight (KG) </label>
         </div>
         <div class="user-box">
-          <input type="number" name="" required="" />
-          <label>height (M)</label>
+          <input type="number" name="Height" required="" />
+          <label>Height (M)</label>
         </div>
         <a href="#">
           <span></span>
           <span></span>
           <span></span>
-          <span></span> calculate
+          <span></span> <input type="submit">
         </a>
       </form>
     </div>
