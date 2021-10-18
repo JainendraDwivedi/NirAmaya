@@ -170,3 +170,20 @@ body {
     bottom: 100%;
   }
 }
+
+INPUT[type="submit"] {
+  position: relative;
+  display: inline-block;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 4px;
+  text-align: center;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border-width: inherit;
+}
