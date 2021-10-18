@@ -6,9 +6,12 @@ const app = express();
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
+const https = require("https");
+const request = require('request');
+
 
 //bodyparser
-app.use(express.urlencoded({extended: true}))
+app.use(express.urlencoded({extended: true}));
 
 //ejs environment
 let ejs = require('ejs');
@@ -19,6 +22,7 @@ app.use(express.static("public"));
 const htmlRoutes = require("./routes/html-routes");
 const authRoutes = require("./routes/auth");
 const bmiRoutes = require("./routes/bmi");
+const calorieRoutes = require("./routes/calorieApi");
 
 
 //DB Connection
@@ -41,6 +45,7 @@ app.use(cors());
 app.use("/api", htmlRoutes);
 app.use("/api", authRoutes);
 app.use("/api", bmiRoutes);
+app.use("/api",calorieRoutes );
 //PORT
 const port = process.env.PORT || 8000;
 
