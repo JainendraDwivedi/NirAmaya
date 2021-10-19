@@ -1,37 +1,91 @@
 body {
-  background: -webkit-linear-gradient(left, #eff7f4, #f1f1f7);
-  background: linear-gradient(to right, #e5eeec, #ebe2e2c0);
-  font-family: "Roboto", sans-serif;
+    background: -webkit-linear-gradient(left, #eff7f4, #f1f1f7);
+    background: linear-gradient(to right, #e5eeec, #ebe2e2c0);
+    font-family: "Roboto", sans-serif;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .health-articles,
 .calorie-table {
-  background: #f7f6f5;
-  border-radius: 0 0 3px 3px;
-  border-top: 4px solid #8b2f2f;
-  box-shadow: 0 2px 0 0 rgb(0 0 0 / 12%);
-  display: block;
-  font-size: 1rem;
-  margin-top: 0.813em;
-  position: relative;
-  margin: 11px;
-  text-align: center;
+    background: #f7f6f5;
+    border-radius: 0 0 3px 3px;
+    border-top: 4px solid #8b2f2f;
+    box-shadow: 0 2px 0 0 rgb(0 0 0 / 12%);
+    display: block;
+    font-size: 1rem;
+    margin-top: 0.813em;
+    position: relative;
+    margin: 11px;
+    text-align: center;
+}
+
+.centre {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.centred {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centredd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .calorie-table-header {
-  text-align: center;
+    text-align: center;
 }
 
 .header-image {
-  width: 100%;
-  height: auto;
-  opacity: 0.6;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
 }
 
 .article1 {
-  font-size: larger;
-  text-align: left;
-  border-radius: 0 0 3px 3px;
-  border-top: 4px solid #0301053f;
-  padding: 2px;
+    font-size: larger;
+    text-align: left;
+    border-radius: 0 0 3px 3px;
+    border-top: 4px solid #0301053f;
+    padding: 2px;
 }
