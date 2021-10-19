@@ -86,7 +86,15 @@
     <div class="calorie-table">
         <div class="calorie-table-header">
             <img class="header-image" src="../images/food.jpg" alt="oops sorry" style="width: 100;">
-            <h1 class="centre">Calorie Heist</h1>
+
+            <h1 class="centre" style="font-size: 46px !important;  color: whitesmoke  !important;">CALORIE-HEIST</h1>
+
+            <h1 style="font-size: 46px !important; color: whitesmoke !important; 
+            position: absolute;
+            top: 17%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            ">Get Nutrition Facts </h1>
 
 
 
@@ -94,71 +102,77 @@
 
 
             <div class="centred">
-                <form class="example" action="/api/getData" method="post" style="margin:auto;max-width:300px">
-                    <input type="text" placeholder="Search.." name="foodItem">
-                    <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
+                <div id='search-box'>
+                    <form id='search-form' action="/api/getData" method='post'>
+                        <input id='search-text' name='foodItem' placeholder='Search' type='text' />
+                        <button id='search-button' type='submit'><span>Nutrition</span></button>
+                    </form>
+                </div>
+
             </div>
 
 
 
+            <div class="nut-table">
 
+                <h1>Nutrition-Data</h1>
+                <table class="table table-striped">
 
-            <table class="table table-striped">
-                <thead class="thead-dark">
-                    <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Serving Size</th>
-                        <th scope="col">Calories</th>
-                        <th scope="col">Total Fat</th>
-                        <th scope="col">Saturated Fat</th>
-                        <th scope="col">Cholesterol</th>
-                        <th scope="col">Sodium</th>
-                        <th scope="col">Carbohydrates</th>
-                        <th scope="col">Fiber</th>
-                        <th scope="col">Sugar</th>
-                        <th scope="col">Protein</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="col">
-                            <%=Name%>
-                        </th>
-                        <th scope="col">
-                            <%=Serving_Size%>
-                        </th>
-                        <th scope="col">
-                            <%=Calories%>
-                        </th>
-                        <th scope="col">
-                            <%=Total_Fat%>
-                        </th>
-                        <th scope="col">
-                            <%=Saturated_Fat%>
-                        </th>
-                        <th scope="col">
-                            <%=Cholesterol%>
-                        </th>
-                        <th scope="col">
-                            <%=Sodium%>
-                        </th>
-                        <th scope="col">
-                            <%=Carbohydrates%>
-                        </th>
-                        <th scope="col">
-                            <%=Fiber%>
-                        </th>
-                        <th scope="col">
-                            <%=Sugar%>
-                        </th>
-                        <th scope="col">
-                            <%=Protein%>
-                        </th>
-                    </tr>
-                </tbody>
-            </table>
+                    <thead class="thead-dark">
 
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Serving Size</th>
+                            <th scope="col">Calories</th>
+                            <th scope="col">Total Fat</th>
+                            <th scope="col">Saturated Fat</th>
+                            <th scope="col">Cholesterol</th>
+                            <th scope="col">Sodium</th>
+                            <th scope="col">Carbohydrates</th>
+                            <th scope="col">Fiber</th>
+                            <th scope="col">Sugar</th>
+                            <th scope="col">Protein</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="col">
+                                <%=Name%>
+                            </th>
+                            <th scope="col">
+                                <%=Serving_Size%>
+                            </th>
+                            <th scope="col">
+                                <%=Calories%>
+                            </th>
+                            <th scope="col">
+                                <%=Total_Fat%>
+                            </th>
+                            <th scope="col">
+                                <%=Saturated_Fat%>
+                            </th>
+                            <th scope="col">
+                                <%=Cholesterol%>
+                            </th>
+                            <th scope="col">
+                                <%=Sodium%>
+                            </th>
+                            <th scope="col">
+                                <%=Carbohydrates%>
+                            </th>
+                            <th scope="col">
+                                <%=Fiber%>
+                            </th>
+                            <th scope="col">
+                                <%=Sugar%>
+                            </th>
+                            <th scope="col">
+                                <%=Protein%>
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 
