@@ -84,19 +84,28 @@
     <div class="calorie-table">
         <div class="calorie-table-header">
             <img class="header-image" src="../images/food.jpg" alt="oops sorry" style="width: 100;">
-            <h1 class="centre">CALORIE-HEIST</h1>
+            <h1 class="centre" style="font-size: 46px !important;">CALORIE-HEIST</h1>
 
-
+            <h1 style="font-size: 46px !important; 
+            position: absolute;
+            top: 17%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            ">Get Nutrition Facts Now</h1>
 
             <!--CalorieApi-->
             <div class="centred">
 
-
-
-                <form class="example" action="/api/getData" method="post" style="margin:auto;max-width:300px">
+                <!-- <form class="example" action="/api/getData" method="post">
                     <input type="text" placeholder="Search.." name="foodItem">
                     <button type="submit"><i class="fa fa-search"></i></button>
-                </form>
+                </form> -->
+                <div id='search-box'>
+                    <form id='search-form' action="/api/getData" method='post'>
+                        <input id='search-text' name='foodItem' placeholder='Search' type='text' />
+                        <button id='search-button' type='submit'><span>Nutrition</span></button>
+                    </form>
+                </div>
             </div>
         </div>
 
