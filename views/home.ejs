@@ -32,7 +32,7 @@
               </button>
               <a href="#" class="navbar-brand">Calorie Heist</a>
             </div>
-//Ansh
+
             <div class="navbar-collapse collapse" id="mobile_menu">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
@@ -98,7 +98,48 @@
       <header class="calorie-table-header">
         <h1>Calorie Heist</h1>
 
+
+
+        <!--CalorieApi-->
         <img class="header-image" src="../images/food.jpg" alt="oops sorry" />
+        <form action="/api/getData" method="post">
+          <input type="text" name="foodItem" >
+          <button type="submit">get nutrients</button>
+        </form>
+
+        <table class="table table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Serving Size</th>
+              <th scope="col">Calories</th>
+              <th scope="col">Total Fat</th>
+              <th scope="col">Saturated Fat</th>
+              <th scope="col">Cholesterol</th>
+              <th scope="col">Sodium</th>
+              <th scope="col">Carbohydrates</th>
+              <th scope="col">Fiber</th>
+              <th scope="col">Sugar</th>
+              <th scope="col">Protein</th>
+            </tr>
+          </thead>
+          <tbody >
+            <tr>
+              <th scope="col"><%=Name%></th>
+              <th scope="col"><%=Serving_Size%></th>
+              <th scope="col"><%=Calories%></th>
+              <th scope="col"><%=Total_Fat%></th>
+              <th scope="col"><%=Saturated_Fat%></th>
+              <th scope="col"><%=Cholesterol%></th>
+              <th scope="col"><%=Sodium%></th>
+              <th scope="col"><%=Carbohydrates%></th>
+              <th scope="col"><%=Fiber%></th>
+              <th scope="col"><%=Sugar%></th>
+              <th scope="col"><%=Protein%></th>
+            </tr>
+          </tbody>
+        </table>
+        
       </header>
     </div>
 
