@@ -98,9 +98,9 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]:https://img.shields.io/github/contributors/JainendraDwivedi/Calorie-Heist
 [contributors-url]: https://github.com/JainendraDwivedi/Calorie-Heist/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: 
 [forks-url]: https://github.com/JainendraDwivedi/Calorie-Heist/network/members
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jainendradwivedi
