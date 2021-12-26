@@ -23,7 +23,7 @@ exports.getData = (req, res) => {
       else {
         const items = JSON.parse(body);
 
-        console.log(items.items[0].sugar_g);
+        console.log("JaPAn - Jainendra Priya Ansh");
 
         const Name = items.items[0].name;
         const Serving_Size = items.items[0].serving_size_g;
