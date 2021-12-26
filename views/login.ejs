@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="icon" href="../public/images/favicon.png" />
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -32,35 +34,7 @@
           <span></span>
           <span></span> Create Account</a
         >
-      </form>
-      <!-- Google Login  -->
-      <!-- Signin button  -->
-      <meta
-        name="google-signin-client_id"
-        content="739918269007-t3aamrjju9ckdg11mvo4n85nc48al17e.apps.googleusercontent.com"
-      />
-      <div
-        class="g-signin2"
-        data-onsuccess="onSignIn"
-        data-scope="https://www.googleapis.com/auth/plus.login"
-        data-accesstype="offline"
-        data-redirecturi="http://localhost:8000/api/signup"
-      ></div>
-      <!-- sign out button  -->
-      <a href="#" onclick="signOut();">Sign out</a>
+      </form>  
     </div>
-
-    <!-- scripts -->
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script src="../public/javascripts/GoogleSignin.js"></script>
-    <!-- Signout -->
-    <script>
-      function signOut() {
-        var auth2 = gapi.auth2.getAuthInstance();
-        auth2.signOut().then(function () {
-          console.log("User signed out.");
-        });
-      }
-    </script>
   </body>
 </html>
