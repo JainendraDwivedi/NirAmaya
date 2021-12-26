@@ -100,7 +100,7 @@ To get a local copy up and running follow these simple example steps.
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]:https://img.shields.io/github/contributors/JainendraDwivedi/Calorie-Heist
 [contributors-url]: https://github.com/JainendraDwivedi/Calorie-Heist/graphs/contributors
-[forks-shield]: 
-[forks-url]: https://github.com/JainendraDwivedi/Calorie-Heist/network/members
+<!-- [forks-shield]: 
+[forks-url]: https://github.com/JainendraDwivedi/Calorie-Heist/network/members -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jainendradwivedi
