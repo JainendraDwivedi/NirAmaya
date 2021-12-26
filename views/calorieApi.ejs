@@ -1,185 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="icon" href="../public/images/favicon.png" />
 
-<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calorie Heist</title>
     <!-- Imports -->
     <link rel="stylesheet" href="../stylesheets/home.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <!--Header-->
     <div class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="navbar-header">
-                        <button class="navbar-toggle" data-target="#mobile_menu" data-toggle="collapse">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="navbar-header">
+              <button
+                class="navbar-toggle"
+                data-target="#mobile_menu"
+                data-toggle="collapse"
+              >
                 <span class="icon-bar"></span><span class="icon-bar"></span
                 ><span class="icon-bar"></span>
               </button>
-                        <a href="#" class="navbar-brand">Calorie Heist</a>
-                    </div>
 
-                    <div class="navbar-collapse collapse" id="mobile_menu">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="http://localhost:8000/api/home">Home</a></li>
-                            <li>
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <span class="caret"></span
+              <a href="#" class="navbar-brand">Calorie Heist</a>
+            </div>
+
+            <div class="navbar-collapse collapse" id="mobile_menu">
+              <ul class="nav navbar-nav">
+                <li class="active">
+                  <a href="http://localhost:8000/api/home">Home</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                    >About Us <span class="caret"></span
                   ></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="https://www.linkedin.com/in/priya-kumari-431a09201/" target="_blank">Priya Kumari</a></li>
-                                    <li><a href="https://www.linkedin.com/in/jainendradwivedi/" target="_blank">Jainendra Dwivedi</a></li>
-                                    <li><a href="https://www.linkedin.com/in/ansh-singh-cse-mnnit/" target="_blank">Ansh Singh</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="https://ng-fitness-tracker-c1aba.web.app/login" target="_blank">Fitness Tracker</a></li>
-                            <li><a href="http://localhost:8000/api/bmi" target="_blank">BMI</a></li>
-                        </ul>
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <form action="" class="navbar-form">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <input type="search" name="search" id="" placeholder="Search Anything Here..." class="form-control" />
-                                            <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/priya-kumari-431a09201/"
+                        target="_blank"
+                        >Priya Kumari</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/jainendradwivedi/"
+                        target="_blank"
+                        >Jainendra Dwivedi</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/ansh-singh-cse-mnnit/"
+                        target="_blank"
+                        >Ansh Singh</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!-- <li><a href="https://ng-fitness-tracker-c1aba.web.app/login" target="_blank">Fitness Tracker</a></li> -->
+                <li>
+                  <a href="http://localhost:8000/api/bmi" target="_blank"
+                    >BMI</a
+                  >
+                </li>
+              </ul>
+              <ul class="nav navbar-nav">
+                <li>
+                  <form action="" class="navbar-form">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input
+                          type="search"
+                          name="search"
+                          id=""
+                          placeholder="Search Healthy..."
+                          class="form-control"
+                        />
+                        <span class="input-group-addon"
+                          ><span class="glyphicon glyphicon-search"></span
                         ></span>
-                                        </div>
-                                    </div>
-                                </form>
-                            </li>
-                        </ul>
+                      </div>
+                    </div>
+                  </form>
+                </li>
+              </ul>
 
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="#" target="_blank"><span class="glyphicon glyphicon-user"></span>Profile</a
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="#" target="_blank"
+                    ><span class="glyphicon glyphicon-user"></span>Profile</a
                   >
                 </li>
                 <li>
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"
-                    ><span class="glyphicon glyphicon-log-in"></span>Settings
+                    ><span class="glyphicon glyphicon-log-in"></span> Settings
                     <span class="caret"></span
                   ></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Logout</a></li>
-                                    <li><a href="#">Sample</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                  <ul class="dropdown-menu">
+                    <li><a href="http://localhost:8000/api/">Logout</a></li>
+                    <!-- <li><a href="#">Sample</a></li> -->
+                  </ul>
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- content -->
     <div class="calorie-table">
-        <div class="calorie-table-header">
-            <img class="header-image" src="../images/food.jpg" alt="oops sorry" style="width: 100;">
+      <div class="calorie-table-header">
+        <img
+          class="header-image"
+          src="../images/food.jpg"
+          alt="oops sorry"
+          style="width: 100"
+        />
 
-            <h1 class="centre" style="font-size: 46px !important;  color: whitesmoke  !important;">CALORIE-HEIST</h1>
+        <h1 class="centre" style="font-size: 46px !important; color: white !important; ">CALORIE - HEIST</h1>
 
-            <h1 style="font-size: 46px !important; color: whitesmoke !important; 
+            <h1 style="
+            font-size: 46px !important;
             position: absolute;
             top: 17%;
             left: 50%;
             transform: translate(-50%, -50%);
-            ">Get Nutrition Facts </h1>
+            color: white !important;
+            padding-bottom: 50px !important;
+            font-family: 'Shizuru', cursive;
+            
+            ">KNOW WHAT YOU EAT</h1>
+            <br><br><br><br>
 
+        <!--CalorieApi-->
 
-
-            <!--CalorieApi-->
-
-
-            <div class="centred">
-                <div id='search-box'>
-                    <form id='search-form' action="/api/getData" method='post'>
-                        <input id='search-text' name='foodItem' placeholder='Search' type='text' />
-                        <button id='search-button' type='submit'><span>Nutrition</span></button>
-                    </form>
-                </div>
-
-            </div>
-
-
-
-            <div class="nut-table">
-
-                <h1>Nutrition-Data</h1>
-                <table class="table table-striped">
-
-                    <thead class="thead-dark">
-
-                        <tr>
-                            <th scope="col">Name</th>
-                            <th scope="col">Serving Size</th>
-                            <th scope="col">Calories</th>
-                            <th scope="col">Total Fat</th>
-                            <th scope="col">Saturated Fat</th>
-                            <th scope="col">Cholesterol</th>
-                            <th scope="col">Sodium</th>
-                            <th scope="col">Carbohydrates</th>
-                            <th scope="col">Fiber</th>
-                            <th scope="col">Sugar</th>
-                            <th scope="col">Protein</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="col">
-                                <%=Name%>
-                            </th>
-                            <th scope="col">
-                                <%=Serving_Size%>
-                            </th>
-                            <th scope="col">
-                                <%=Calories%>
-                            </th>
-                            <th scope="col">
-                                <%=Total_Fat%>
-                            </th>
-                            <th scope="col">
-                                <%=Saturated_Fat%>
-                            </th>
-                            <th scope="col">
-                                <%=Cholesterol%>
-                            </th>
-                            <th scope="col">
-                                <%=Sodium%>
-                            </th>
-                            <th scope="col">
-                                <%=Carbohydrates%>
-                            </th>
-                            <th scope="col">
-                                <%=Fiber%>
-                            </th>
-                            <th scope="col">
-                                <%=Sugar%>
-                            </th>
-                            <th scope="col">
-                                <%=Protein%>
-                            </th>
-                        </tr>
-                    </tbody>
-                </table>
+        <div class="centred">
+            <div id='search-box'>
+                <form id='search-form' action="/api/getData" method='post'>
+                    <input id='search-text' name='foodItem' placeholder='How much fat in 2 Bananas?' type='text' />
+                    <button id='search-button' type='submit'><span>Nutrition</span></button>
+                </form>
             </div>
         </div>
+
+        <div class="nut-table">
+          <h1>Nutrition-Data</h1>
+          <table class="table table-striped">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Serving Size</th>
+                <th scope="col">Calories</th>
+                <th scope="col">Total Fat</th>
+                <th scope="col">Saturated Fat</th>
+                <th scope="col">Cholesterol</th>
+                <th scope="col">Sodium</th>
+                <th scope="col">Carbohydrates</th>
+                <th scope="col">Fiber</th>
+                <th scope="col">Sugar</th>
+                <th scope="col">Protein</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="col"><%=Name%></th>
+                <th scope="col"><%=Serving_Size%></th>
+                <th scope="col"><%=Calories%></th>
+                <th scope="col"><%=Total_Fat%></th>
+                <th scope="col"><%=Saturated_Fat%></th>
+                <th scope="col"><%=Cholesterol%></th>
+                <th scope="col"><%=Sodium%></th>
+                <th scope="col"><%=Carbohydrates%></th>
+                <th scope="col"><%=Fiber%></th>
+                <th scope="col"><%=Sugar%></th>
+                <th scope="col"><%=Protein%></th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
 
     <div class="health-articles">
-        <h4>Articles</h4>
-        <div class="article1">
-            <a href="https://www.helpguide.org/articles/healthy-eating/healthy-eating.htm" style="text-decoration: none; color: black">Healthy Eating</a
+      <h4>Articles</h4>
+      <div class="article1">
+        <a
+          href="https://www.helpguide.org/articles/healthy-eating/healthy-eating.htm"
+          style="text-decoration: none; color: black"
+          >Healthy Eating</a
         >
       </div>
       <div class="article1">
