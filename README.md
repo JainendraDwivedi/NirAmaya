@@ -1,13 +1,9 @@
 # Calorie-Heist
 
+An all round app to know about what you eat, nutriitonal values of your food, what you should and How to manage the Diet.
+
 Project For Avishkar 2021
-
-## Table Of Contents
-
-- [Installation](##Installation)
-- [Contributors](##Contributors)
-    
-    
+  
 ## Installation
 
 1. Clone this GitHub repository - [Calorie Heist](https://github.com/JainendraDwivedi/Calorie-Heist)
@@ -19,16 +15,21 @@ Project For Avishkar 2021
 
 3. Create a MongoDB database
 
-4. If running locally update the DATABASE with your connection string in a .env file
+4. If running locally update the DATABASE with your connection string in a .env file in the main Calorie-Heist folder.
+   An example of the .env file ->
 
-5. If running on a server or hosting platform add the DATABASE with connection string to the environment variables
+> DATABASE = mongodb://localhost:27017/****
+> PORT = 8000
+> SECRET = *****
 
-6. If needed seed the MongoDB database by running npm run seed
+5. If running on a server or hosting platform add the DATABASE with connection string to the environment variables.
 
+6. If needed seed the MongoDB database by running npm run seed.
 
-## Usage
+7. Turn on the mongod,mongo commands in the command prompt and use RoBo3T to access the Datatbase.
 
 ## Features
+
 
 ## Contributors
 
