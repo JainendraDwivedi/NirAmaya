@@ -40,7 +40,7 @@ Project For Avishkar 2021.
 
 ## Installation
 
-1. Clone this GitHub repository - [Calorie Heist](https://github.com/JainendraDwivedi/NirAmaya)
+1. Clone this GitHub repository - [NirAmaya](https://github.com/JainendraDwivedi/NirAmaya)
 
 2. Install all dependent npm packages
 
