@@ -7,9 +7,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<!--   <a href="https://github.com/JainendraDwivedi/Calorie-Heist"> -->
+  <a href="https://github.com/JainendraDwivedi/NirAmaya">
     *NirAmaya*
-    <img src="/public/images/LOGO MAIN.png" alt="Logo">
+     (previously known as Calorie Heist)
+<!--     <img src="/public/images/LOGO MAIN.png" alt="Logo"> -->
   </a>
 <br/><br/><br/>
   <img src="/public/images/pngfind.com-japan-png-433.png" alt="Logo"  width="100" height="100">
@@ -39,7 +40,7 @@ Project For Avishkar 2021.
 
 ## Installation
 
-1. Clone this GitHub repository - [Calorie Heist](https://github.com/JainendraDwivedi/Calorie-Heist)
+1. Clone this GitHub repository - [Calorie Heist](https://github.com/JainendraDwivedi/NirAmaya)
 
 2. Install all dependent npm packages
 
@@ -94,10 +95,10 @@ Project For Avishkar 2021.
 <p align="center">Thank You!</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]:https://img.shields.io/github/contributors/JainendraDwivedi/Calorie-Heist?style=for-the-badge&logo=appveyor
-[contributors-url]: https://github.com/JainendraDwivedi/Calorie-Heist/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/JainendraDwivedi/Calorie-Heist?style=for-the-badge
-[forks-url]: https://github.com/JainendraDwivedi/Calorie-Heist/network/members
+[contributors-shield]:https://img.shields.io/github/contributors/JainendraDwivedi/NirAmaya?style=for-the-badge&logo=appveyor
+[contributors-url]: https://github.com/JainendraDwivedi/NirAmaya/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/JainendraDwivedi/NirAmaya?style=for-the-badge
+[forks-url]: https://github.com/JainendraDwivedi/NirAmaya/network/members
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jainendradwivedi
 [gdrive-shield]: https://img.shields.io/badge/Drive%20Link-Video?style=for-the-badge&logo=appveyor
