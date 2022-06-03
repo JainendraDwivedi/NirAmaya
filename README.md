@@ -7,7 +7,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/JainendraDwivedi/Calorie-Heist">*NirAmaya*
+<!--   <a href="https://github.com/JainendraDwivedi/Calorie-Heist"> -->
+    *NirAmaya*
     <img src="/public/images/LOGO MAIN.png" alt="Logo">
   </a>
 <br/><br/><br/>
