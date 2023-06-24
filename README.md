@@ -8,8 +8,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/JainendraDwivedi/NirAmaya">
-    *NirAmaya*
-     (previously known as Calorie Heist)
+    NirAmaya
 <!--     <img src="/public/images/LOGO MAIN.png" alt="Logo"> -->
   </a>
 <br/><br/><br/>
